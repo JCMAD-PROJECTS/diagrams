@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T02:00:54.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="bAdxHmiUZ98yQaNQFg6f" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T02:15:42.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="gerDAFpfIXIII8l1uylP" version="24.0.7" type="github">
   <diagram name="Página-1" id="kOJharQfXHAmoPpjCCFV">
-    <mxGraphModel dx="1323" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="373.5" y="600" width="69" height="72" as="geometry" />
+          <mxGeometry x="366.75" y="560" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-6" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.documentdb_with_mongodb_compatibility;" vertex="1" parent="1">
           <mxGeometry x="560" y="730" width="78" height="78" as="geometry" />
@@ -47,38 +47,68 @@
         <mxCell id="ubIBgANTC9cO37jIuT9o-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.408;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ubIBgANTC9cO37jIuT9o-5" target="ubIBgANTC9cO37jIuT9o-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ubIBgANTC9cO37jIuT9o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ubIBgANTC9cO37jIuT9o-4" target="ubIBgANTC9cO37jIuT9o-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ubIBgANTC9cO37jIuT9o-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="ubIBgANTC9cO37jIuT9o-5" target="ubIBgANTC9cO37jIuT9o-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ubIBgANTC9cO37jIuT9o-5" target="ubIBgANTC9cO37jIuT9o-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-23" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
-          <mxGeometry x="470" y="40" width="43" height="43" as="geometry" />
+          <mxGeometry x="470" y="40" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-24" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Evento de CloudWatch cada&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3 meses para correr los scrapers&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="36.5" width="260" height="50" as="geometry" />
+          <mxGeometry x="484" y="40" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-25" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
-          <mxGeometry x="310" y="170" width="40" height="40" as="geometry" />
+          <mxGeometry x="310" y="170" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-26" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Función Lambda que recolecta&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;solamente las URL de cada propiedad&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="200" width="290" height="50" as="geometry" />
+          <mxGeometry x="20" y="160" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-27" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
-          <mxGeometry x="630" y="222" width="40" height="40" as="geometry" />
+          <mxGeometry x="630" y="222" width="28" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="ubIBgANTC9cO37jIuT9o-29" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Guardar url, fecha&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;y rootUrl en DynamoDB&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="635" y="260" width="190" height="50" as="geometry" />
+        <mxCell id="ubIBgANTC9cO37jIuT9o-29" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Guardar url, fecha&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;y rootUrl en DynamoDB&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;siempre y cuando &lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;no esten &lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;visitadas&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-30" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
-          <mxGeometry x="90" y="320" width="40" height="40" as="geometry" />
+          <mxGeometry x="90" y="330" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ubIBgANTC9cO37jIuT9o-31" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Meter cada URL en una&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;SQS Queue para el scraping&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="364" width="230" height="50" as="geometry" />
+          <mxGeometry x="120" y="325" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-34" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="495" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-35" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="481" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-38" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Consumir las URL que estan&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;esperando en la cola&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="487.5" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ubIBgANTC9cO37jIuT9o-5" target="ubIBgANTC9cO37jIuT9o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-41" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="700" y="586" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-44" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="660" y="750" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-45" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="578" y="496" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-46" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
+          <mxGeometry x="90" y="632" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-47" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Extraer la información &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;de cada URL&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="630" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-50" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Hacer una Query a&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Dynamo por una URL&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435.75" y="525" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-52" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Marcar cada URL&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;como visitada&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="638" y="630" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubIBgANTC9cO37jIuT9o-53" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Guardar la info en la&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;base de datos&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="790" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
